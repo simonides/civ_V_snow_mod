@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/9/2015 2:20:13 PM -->
+<GameData>
+	<BuildingClasses>
+		<Row>
+			<Type>BUILDINGCLASS_PALISADE</Type>
+			<DefaultBuilding>BUILDING_PALISADE</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_PALISADE</Description>
+		</Row>
+	</BuildingClasses>
+
+	<Language_en_US>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE">
+			<Text>Palisade_modded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_PALISADE_STRATEGY">
+			<Text>
+				Palisade's provide an early defense against attackers. Though they are less expensive than walls, they
+				provide only half the defense.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT">
+			<Text>
+				Built of little more than mud and raw lumber palisades were as vulnerable to the weather as they were
+				to enemy attack. Yet they remained popular in border cities if only because they made the people behind them feel more secure.
+			</Text>
+		</Row>
+	</Language_en_US>
+	<!--<Building_ResourceYieldChanges>
+		<row>
+			<Type>BUILDINGCLASS_PALISADE</Type>
+			<ResourceType>RESOURCE_HORSE</ResourceType>
+			<YieldType>YIELD_GOLD</YieldType>
+			<Yield>69</Yield>
+		</row>
+	</Building_ResourceYieldChanges>-->
+	
+</GameData>

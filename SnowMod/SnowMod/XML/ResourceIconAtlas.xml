@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created by ModBuddy on 10/8/2015 10:53:38 PM -->
+<GameData>
+	<IconTextureAtlases>
+		<Row>
+			<Atlas>CUSTOM_RESOURCE_ATLAS</Atlas>
+			<IconSize>256</IconSize>
+			<Filename>Art/ResourceIcons256.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CUSTOM_RESOURCE_ATLAS</Atlas>
+			<IconSize>80</IconSize>
+			<Filename>Art/ResourceIcons80.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CUSTOM_RESOURCE_ATLAS</Atlas>
+			<IconSize>64</IconSize>
+			<Filename>Art/ResourceIcons64.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+		<Row>
+			<Atlas>CUSTOM_RESOURCE_ATLAS</Atlas>
+			<IconSize>45</IconSize>
+			<Filename>Art/ResourceIcons45.dds</Filename>
+			<IconsPerRow>8</IconsPerRow>
+			<IconsPerColumn>8</IconsPerColumn>
+		</Row>
+	</IconTextureAtlases>
+</GameData>

@@ -319,20 +319,38 @@
 
 	<Language_en_US>
 		<!--MAGIC_SNOW-->
-
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_SNOW">
-			<Text>MAGIC_SNOW</Text>
+			<Text>Magic snow</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_SNOW_HELP">
-			<Text>Used for Units.</Text>
+			<Text>Used for .. fill me..</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW">
-			<Text>MAGIC_SNOW</Text>
+			<Text>Magic snow</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TEXT">
 			<Text>
-				MAGIC_SNOW, as native MAGIC_SNOW, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_SNOW was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Magic snow, the purpose of this resource is not exactly clear but some explanations could be:
+				1. Frozen precipitation that is white, powdered and falls to the ground in winter.
+
+				2. Static on the TV.
+
+				3. Coke or cocaine.
+
+				4. A white Canadian rapper who had a hit in 1992 with the reggae influenced Informer.
+
+				5. White girls.
+				
+				6. Snow is traditionally something people want to see at Christmas, but any other time of the year they see it as a real pain in the ass.
+
+				7. We couldn't pick up the TV station on the using the antenna. we got nothing but snow.
+
+				8. Damn, we got busted by the po-po's fo snow.
+
+				9. Is Snow related to that guy from the Barenaked Ladies?
+
+				10. Let's go pick up some snow to bang if you get my drift.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE1">
@@ -353,18 +371,18 @@
 
 		<!--MAGIC_POWDER-->
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER">
-			<Text>MAGIC_POWDER</Text>
+			<Text>Magic powder</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER_HELP">
-			<Text>Used for Units.</Text>
+			<Text>Used for .. fill me..</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER">
-			<Text>MAGIC_POWDER</Text>
+			<Text>Magic powder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TEXT">
 			<Text>
-				MAGIC_POWDER, as native MAGIC_POWDER, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_POWDER was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Magic powder, no one knows where it came from but anchient stories tell that superman landed on earth and sneezed so hard that the rock where he stood on was turned into dust. This magic dust can be found in many places today.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE1">
@@ -385,18 +403,18 @@
 		
 		<!--FAIRY_DUST-->
 		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST">
-			<Text>FAIRY_DUST</Text>
+			<Text>Fairy dust</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST_HELP">
-			<Text>Used for Units.</Text>
+			<Text>Used for  ..... fill me.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST">
-			<Text>FAIRY_DUST</Text>
+			<Text>Fairy dust</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TEXT">
 			<Text>
-				FAIRY_DUST, as native FAIRY_DUST, is one of the few metals to occur naturally as an un-compounded mineral. FAIRY_DUST was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Fairy dust, a random powdered drug that is really good but you have no idea what it is. Damn! - that fairy dust knocked me out last night.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE1">
@@ -417,18 +435,18 @@
 		
 		<!--SAND_OF_TIME-->
 		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME">
-			<Text>SAND_OF_TIME</Text>
+			<Text>Sands of time</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME_HELP">
-			<Text>Used for Units.</Text>
+			<Text>Used for .. fill me.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME">
-			<Text>SAND_OF_TIME</Text>
+			<Text>Sands of time</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TEXT">
 			<Text>
-				SAND_OF_TIME, as native SAND_OF_TIME, is one of the few metals to occur naturally as an un-compounded mineral. SAND_OF_TIME was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Sands of time, a phrase best used at the beach right after some dramatic event. Watching the sand slip out of your hand. It's just sands of time. what else is there to say.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE1">

@@ -1,17 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Created by ModBuddy on 10/9/2015 3:08:01 PM -->
 <GameData>
+	<!--MAGIC_SNOW-->
+	<!--MAGIC_POWDER-->
+	<!--FAIRY_DUST-->
+	<!--SAND_OF_TIME-->
 	<Improvement_ResourceTypes>
+		<!--MAGIC_SNOW-->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
 		</Row>
 	</Improvement_ResourceTypes>
 
 	<Improvement_ResourceType_Yields>
+		<!--MAGIC_SNOW-->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--MAGIC_POWDER-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--FAIRY_DUST-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>

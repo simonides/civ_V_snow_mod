@@ -2,14 +2,15 @@
 <!-- Created by ModBuddy on 10/8/2015 10:18:12 PM -->
 <GameData>
 	<Resources>
+		<!--MAGIC_SNOW-->
 		<Row>
-			<Type>RESOURCE_SNOW</Type>
+			<Type>RESOURCE_MAGIC_SNOW</Type>
 			<TechReveal>TECH_MINING</TechReveal>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
 			<AIStopTradingEra>ERA_INDUSTRIAL</AIStopTradingEra>
-			<Description>TXT_KEY_RESOURCE_SNOW</Description>
+			<Description>TXT_KEY_RESOURCE_MAGIC_SNOW</Description>
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SNOW_TEXT</Civilopedia>
-			<Help>TXT_KEY_RESOURCE_SNOW_HELP</Help>
+			<Help>TXT_KEY_RESOURCE_MAGIC_SNOW_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
 			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
 			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
@@ -28,99 +29,477 @@
 			<Hills>true</Hills>
 			<Flatlands>true</Flatlands>
 			<NoRiverSide>true</NoRiverSide>
-			<IconString>[ICON_RES_SNOW]</IconString>
+			<IconString>[ICON_RES_MAGIC_SNOW]</IconString>
 			<PortraitIndex>0</PortraitIndex>
+			<IconAtlas>CUSTOM_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<!--MAGIC_POWDER-->
+		<Row>
+			<Type>MAGIC_POWDER</Type>
+			<TechReveal>TECH_MINING</TechReveal>
+			<TechCityTrade>TECH_MINING</TechCityTrade>
+			<AIStopTradingEra>ERA_INDUSTRIAL</AIStopTradingEra>
+			<Description>TXT_KEY_RESOURCE_MAGIC_POWDER</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_MAGIC_POWDER_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>1</ResourceUsage>
+			<PlacementOrder>1</PlacementOrder>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Hills>true</Hills>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_MAGIC_POWDER]</IconString>
+			<PortraitIndex>1</PortraitIndex>
+			<IconAtlas>CUSTOM_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<!--FAIRY_DUST-->
+		<Row>
+			<Type>RESOURCE_FAIRY_DUST</Type>
+			<TechReveal>TECH_MINING</TechReveal>
+			<TechCityTrade>TECH_MINING</TechCityTrade>
+			<AIStopTradingEra>ERA_INDUSTRIAL</AIStopTradingEra>
+			<Description>TXT_KEY_RESOURCE_FAIRY_DUST</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_FAIRY_DUST_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>1</ResourceUsage>
+			<PlacementOrder>1</PlacementOrder>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Hills>true</Hills>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_FAIRY_DUST]</IconString>
+			<PortraitIndex>2</PortraitIndex>
+			<IconAtlas>CUSTOM_RESOURCE_ATLAS</IconAtlas>
+		</Row>
+		<!--SAND_OF_TIME-->
+		<Row>
+			<Type>RESOURCE_SAND_OF_TIME</Type>
+			<TechReveal>TECH_MINING</TechReveal>
+			<TechCityTrade>TECH_MINING</TechCityTrade>
+			<AIStopTradingEra>ERA_INDUSTRIAL</AIStopTradingEra>
+			<Description>TXT_KEY_RESOURCE_SAND_OF_TIME</Description>
+			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TEXT</Civilopedia>
+			<Help>TXT_KEY_RESOURCE_SAND_OF_TIME_HELP</Help>
+			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
+			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<AITradeModifier>10</AITradeModifier>
+			<ResourceUsage>1</ResourceUsage>
+			<PlacementOrder>1</PlacementOrder>
+			<AIObjective>1</AIObjective>
+			<ConstAppearance>100</ConstAppearance>
+			<MinAreaSize>3</MinAreaSize>
+			<MaxLatitude>90</MaxLatitude>
+			<RandApp1>10</RandApp1>
+			<RandApp2>10</RandApp2>
+			<Player>100</Player>
+			<Hills>true</Hills>
+			<Flatlands>true</Flatlands>
+			<NoRiverSide>true</NoRiverSide>
+			<IconString>[ICON_RES_SAND_OF_TIME]</IconString>
+			<PortraitIndex>3</PortraitIndex>
 			<IconAtlas>CUSTOM_RESOURCE_ATLAS</IconAtlas>
 		</Row>
 	</Resources>
 	<Resource_YieldChanges>
+		<!--MAGIC_SNOW-->
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!--MAGIC_POWDER-->
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!--FAIRY_DUST-->
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<YieldType>YIELD_PRODUCTION</YieldType>
+			<Yield>1</Yield>
+		</Row>
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
 			<YieldType>YIELD_PRODUCTION</YieldType>
 			<Yield>1</Yield>
 		</Row>
 	</Resource_YieldChanges>
+	
 	<Resource_Flavors>
+		<!--MAGIC_SNOW-->
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<FlavorType>FLAVOR_OFFENSE</FlavorType>
+			<Flavor>10</Flavor>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
 			<FlavorType>FLAVOR_OFFENSE</FlavorType>
 			<Flavor>10</Flavor>
 		</Row>
 	</Resource_Flavors>
+	
 	<Resource_TerrainBooleans>
+		<!--MAGIC_SNOW-->
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
 			<TerrainType>TERRAIN_GRASS</TerrainType>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
 			<TerrainType>TERRAIN_PLAINS</TerrainType>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
 			<TerrainType>TERRAIN_DESERT</TerrainType>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
 			<TerrainType>TERRAIN_TUNDRA</TerrainType>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
-			<TerrainType>TERRAIN_SNOW</TerrainType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<TerrainType>TERRAIN_MAGIC_SNOW</TerrainType>
 		</Row>
-	</Resource_TerrainBooleans>
-	<Resource_QuantityTypes>
+		
+		<!--MAGIC_POWDER-->
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<TerrainType>TERRAIN_MAGIC_POWDER</TerrainType>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<TerrainType>TERRAIN_FAIRY_DUST</TerrainType>
+		</Row>
+
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<TerrainType>TERRAIN_GRASS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<TerrainType>TERRAIN_PLAINS</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<TerrainType>TERRAIN_DESERT</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<TerrainType>TERRAIN_TUNDRA</TerrainType>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<TerrainType>TERRAIN_SAND_OF_TIME</TerrainType>
+		</Row>
+		
+	</Resource_TerrainBooleans>
+	
+	<Resource_QuantityTypes>
+		<!--MAGIC_SNOW-->
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
 			<Quantity>3</Quantity>
 		</Row>
 		<Row>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<Quantity>2</Quantity>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<Quantity>3</Quantity>
+		</Row>
+		<Row>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
 			<Quantity>2</Quantity>
 		</Row>
 	</Resource_QuantityTypes>
+
 	<Language_en_US>
-		<Row Tag="TXT_KEY_RESOURCE_SNOW">
-			<Text>Snow</Text>
+		<!--MAGIC_SNOW-->
+
+		<Row Tag="TXT_KEY_RESOURCE_MAGIC_SNOW">
+			<Text>MAGIC_SNOW</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
-		<Row Tag="TXT_KEY_RESOURCE_SNOW_HELP">
+		<Row Tag="TXT_KEY_RESOURCE_MAGIC_SNOW_HELP">
 			<Text>Used for Units.</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW">
-			<Text>Snow</Text>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW">
+			<Text>MAGIC_SNOW</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW_TEXT">
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TEXT">
 			<Text>
-				Snow, as native Snow, is one of the few metals to occur naturally as an un-compounded mineral. Snow was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				MAGIC_SNOW, as native MAGIC_SNOW, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_SNOW was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
 			</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW_TITLE1">
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE1">
 			<Text>Technology Required to See</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW_TITLE2">
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE2">
 			<Text>Location</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW_TITLE3">
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE3">
 			<Text>Improvement</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW_TITLE4">
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE4">
 			<Text>Yield Bonus</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_RESOURCE_SNOW_TITLE5">
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE5">
 			<Text>Allows</Text>
 		</Row>
+
+		<!--MAGIC_POWDER-->
+		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER">
+			<Text>MAGIC_POWDER</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER_HELP">
+			<Text>Used for Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER">
+			<Text>MAGIC_POWDER</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TEXT">
+			<Text>
+				MAGIC_POWDER, as native MAGIC_POWDER, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_POWDER was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE1">
+			<Text>Technology Required to See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE2">
+			<Text>Location</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE3">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE4">
+			<Text>Yield Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE5">
+			<Text>Allows</Text>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST">
+			<Text>FAIRY_DUST</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST_HELP">
+			<Text>Used for Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST">
+			<Text>FAIRY_DUST</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TEXT">
+			<Text>
+				FAIRY_DUST, as native FAIRY_DUST, is one of the few metals to occur naturally as an un-compounded mineral. FAIRY_DUST was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE1">
+			<Text>Technology Required to See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE2">
+			<Text>Location</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE3">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE4">
+			<Text>Yield Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE5">
+			<Text>Allows</Text>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME">
+			<Text>SAND_OF_TIME</Text>
+			<Gender>neuter:an</Gender>
+		</Row>
+		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME_HELP">
+			<Text>Used for Units.</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME">
+			<Text>SAND_OF_TIME</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TEXT">
+			<Text>
+				SAND_OF_TIME, as native SAND_OF_TIME, is one of the few metals to occur naturally as an un-compounded mineral. SAND_OF_TIME was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE1">
+			<Text>Technology Required to See</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE2">
+			<Text>Location</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE3">
+			<Text>Improvement</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE4">
+			<Text>Yield Bonus</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE5">
+			<Text>Allows</Text>
+		</Row>
+		
 	</Language_en_US>
 	<Improvement_ResourceTypes>
+		
+		<!--MAGIC_SNOW-->
 		<Row>
 			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
-			<ResourceType>RESOURCE_SNOW</ResourceType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
 		</Row>
-	</Improvement_ResourceTypes>
-	<IconFontMapping>
+		
+		<!--MAGIC_POWDER-->
 		<Row>
-			<IconName>ICON_RES_SNOW</IconName>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row>
+			<ImprovementType>IMPROVEMENT_MINE</ImprovementType>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+		</Row>
+		
+	</Improvement_ResourceTypes>
+	
+	<IconFontMapping>
+		<!--MAGIC_SNOW-->
+		<Row>
+			<IconName>ICON_RES_MAGIC_SNOW</IconName>
 			<IconMapping>10</IconMapping>
 		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row>
+			<IconName>ICON_RES_MAGIC_POWDER</IconName>
+			<IconMapping>10</IconMapping>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<IconName>ICON_RES_FAIRY_DUST</IconName>
+			<IconMapping>10</IconMapping>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row>
+			<IconName>ICON_RES_SAND_OF_TIME</IconName>
+			<IconMapping>10</IconMapping>
+		</Row>
+		
 	</IconFontMapping>
 </GameData>

@@ -1,0 +1,8 @@
+TODO:
+> Create the special map
+> Check whether the buildings can be modified to depend on strategic resources
+	- If it is possible --> modify some buildings to depend on the resources
+	
+	- If it is not possible --> evaluate how new units can be edited and try to create a unit which depends on the new strategic resources
+> Add new icons?
+> Balance the new mechanic

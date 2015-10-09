@@ -319,20 +319,19 @@
 
 	<Language_en_US>
 		<!--MAGIC_SNOW-->
-
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_SNOW">
-			<Text>MAGIC_SNOW</Text>
+			<Text>Magic snow</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_SNOW_HELP">
 			<Text>Used for Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW">
-			<Text>MAGIC_SNOW</Text>
+			<Text>Magic snow</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TEXT">
 			<Text>
-				MAGIC_SNOW, as native MAGIC_SNOW, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_SNOW was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Magic snow, as native MAGIC_SNOW, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_SNOW was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_SNOW_TITLE1">
@@ -353,18 +352,18 @@
 
 		<!--MAGIC_POWDER-->
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER">
-			<Text>MAGIC_POWDER</Text>
+			<Text>Magic Powder</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER_HELP">
 			<Text>Used for Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER">
-			<Text>MAGIC_POWDER</Text>
+			<Text>Magic Powder</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TEXT">
 			<Text>
-				MAGIC_POWDER, as native MAGIC_POWDER, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_POWDER was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Magic Powder, as native MAGIC_POWDER, is one of the few metals to occur naturally as an un-compounded mineral. MAGIC_POWDER was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TITLE1">
@@ -385,18 +384,18 @@
 		
 		<!--FAIRY_DUST-->
 		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST">
-			<Text>FAIRY_DUST</Text>
+			<Text>Fairy dust</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST_HELP">
 			<Text>Used for Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST">
-			<Text>FAIRY_DUST</Text>
+			<Text>Fairy dust</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TEXT">
 			<Text>
-				FAIRY_DUST, as native FAIRY_DUST, is one of the few metals to occur naturally as an un-compounded mineral. FAIRY_DUST was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Fairy dust, as native fairy dust, is one of the few metals to occur naturally as an un-compounded mineral. FAIRY_DUST was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TITLE1">
@@ -417,18 +416,18 @@
 		
 		<!--SAND_OF_TIME-->
 		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME">
-			<Text>SAND_OF_TIME</Text>
+			<Text>Sand of time</Text>
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME_HELP">
 			<Text>Used for Units.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME">
-			<Text>SAND_OF_TIME</Text>
+			<Text>Sand of time</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TEXT">
 			<Text>
-				SAND_OF_TIME, as native SAND_OF_TIME, is one of the few metals to occur naturally as an un-compounded mineral. SAND_OF_TIME was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
+				Sand of time, as native sand of time, is one of the few metals to occur naturally as an un-compounded mineral. SAND_OF_TIME was known to some of the oldest civilizations on record, and has a history of use that is at least 10,000 years old.
 			</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TITLE1">

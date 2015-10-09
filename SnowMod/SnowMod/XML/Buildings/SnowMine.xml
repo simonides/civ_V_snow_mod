@@ -23,11 +23,11 @@
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
 	</Buildings>
-	<Building_ResourceQuantityRequirements>
+	<!--<Building_ResourceQuantityRequirements>
 		<row>
 			<BuildingType>BUILDING_PALISADE</BuildingType>
 				<ResourceType>RESOURCE_HORSE</ResourceType>
 				<Cost>1</Cost>
 			</row>
-	</Building_ResourceQuantityRequirements>
+	</Building_ResourceQuantityRequirements>-->
 </GameData>

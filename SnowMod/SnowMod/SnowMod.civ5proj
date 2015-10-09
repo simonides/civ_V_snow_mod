@@ -38,6 +38,16 @@
         <Type>UpdateDatabase</Type>
         <FileName>XML/Terrain/Improvements.xml</FileName>
       </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/Game Rules1.xml</FileName>
+      </Action>
+      <Action>
+        <Set>OnModActivated</Set>
+        <Type>UpdateDatabase</Type>
+        <FileName>XML/Buildings/SnowMine.xml</FileName>
+      </Action>
     </ModActions>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Default' ">
@@ -55,6 +65,7 @@
     <Folder Include="Art" />
     <Folder Include="Lua" />
     <Folder Include="XML" />
+    <Folder Include="XML\Buildings" />
     <Folder Include="XML\Terrain\" />
   </ItemGroup>
   <ItemGroup>
@@ -73,6 +84,14 @@
     <Content Include="Art\ResourceIcons80.dds">
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\Game Rules1.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Buildings\SnowMine.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
     <Content Include="XML\ResourceIconAtlas.xml">
       <SubType>Lua</SubType>

@@ -12,7 +12,6 @@
 			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT</Civilopedia>
 			<Strategy>TXT_KEY_BUILDING_PALISADE_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
-			<MaxStartEra>ERA_ANCIENT</MaxStartEra>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>250</Defense>
@@ -23,11 +22,12 @@
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
 	</Buildings>
-	<!--<Building_ResourceQuantityRequirements>
-		<row>
+
+	<Building_ResourceQuantityRequirements>
+		<Row>
 			<BuildingType>BUILDING_PALISADE</BuildingType>
-				<ResourceType>RESOURCE_HORSE</ResourceType>
-				<Cost>1</Cost>
-			</row>
-	</Building_ResourceQuantityRequirements>-->
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+	</Building_ResourceQuantityRequirements>
 </GameData>

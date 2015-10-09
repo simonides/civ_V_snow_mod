@@ -41,12 +41,12 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/Game Rules1.xml</FileName>
+        <FileName>XML/Buildings/Buildings.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/SnowMine.xml</FileName>
+        <FileName>XML/Buildings/BuildingClasses.xml</FileName>
       </Action>
     </ModActions>
   </PropertyGroup>
@@ -85,11 +85,11 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Buildings\Game Rules1.xml">
+    <Content Include="XML\Buildings\BuildingClasses.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Buildings\SnowMine.xml">
+    <Content Include="XML\Buildings\Buildings.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

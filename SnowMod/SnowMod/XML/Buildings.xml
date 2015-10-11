@@ -11,7 +11,7 @@
 		<Row>
 			<Type>BUILDING_MAGIC_SNOW</Type>
 			<BuildingClass>BUILDINGCLASS_MAGIC_SNOW</BuildingClass>
-			<Cost>10</Cost>
+			<Cost>10000</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<Help>TXT_KEY_BUILDING_MAGIC_SNOW_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_MAGIC_SNOW</Description>
@@ -22,7 +22,7 @@
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>250</Defense>
 			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
@@ -32,7 +32,7 @@
 		<Row>
 			<Type>BUILDING_MAGIC_POWDER</Type>
 			<BuildingClass>BUILDINGCLASS_MAGIC_POWDER</BuildingClass>
-			<Cost>10</Cost>
+			<Cost>10000</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<Help>TXT_KEY_BUILDING_MAGIC_POWDER_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_MAGIC_POWDER</Description>
@@ -43,7 +43,7 @@
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>250</Defense>
 			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
@@ -53,7 +53,7 @@
 		<Row>
 			<Type>BUILDING_FAIRY_DUST</Type>
 			<BuildingClass>BUILDINGCLASS_FAIRY_DUST</BuildingClass>
-			<Cost>10</Cost>
+			<Cost>10000</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<Help>TXT_KEY_BUILDING_FAIRY_DUST_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_FAIRY_DUST</Description>
@@ -64,7 +64,7 @@
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>250</Defense>
 			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
@@ -74,7 +74,7 @@
 		<Row>
 			<Type>BUILDING_SAND_OF_TIME</Type>
 			<BuildingClass>BUILDINGCLASS_SAND_OF_TIME</BuildingClass>
-			<Cost>10</Cost>
+			<Cost>10000</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
 			<Help>TXT_KEY_BUILDING_SAND_OF_TIME_STRATEGY</Help>
 			<Description>TXT_KEY_BUILDING_SAND_OF_TIME</Description>
@@ -85,7 +85,7 @@
 			<AllowsRangeStrike>true</AllowsRangeStrike>
 			<Defense>250</Defense>
 			<CityWall>true</CityWall>
-			<HurryCostModifier>25</HurryCostModifier>
+			<HurryCostModifier>250</HurryCostModifier>
 			<IconAtlas>BW_ATLAS_1</IconAtlas>
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>

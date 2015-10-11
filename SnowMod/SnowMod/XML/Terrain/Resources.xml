@@ -12,10 +12,10 @@
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SNOW_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MAGIC_SNOW_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
-			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
-			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
-			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<ArtDefineTag>ART_DEF_FEATURE_ICE</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_FEATURE_ICE</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_FEATURE_ICE</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_FEATURE_ICE</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
 			<ResourceUsage>1</ResourceUsage>
 			<PlacementOrder>1</PlacementOrder>
@@ -43,10 +43,10 @@
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_MAGIC_POWDER_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
-			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
-			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
-			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<ArtDefineTag>ART_DEF_FEATURE_NATURAL_WONDER</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_FEATURE_NATURAL_WONDER</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_FEATURE_NATURAL_WONDER</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_FEATURE_NATURAL_WONDER</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
 			<ResourceUsage>1</ResourceUsage>
 			<PlacementOrder>1</PlacementOrder>
@@ -74,10 +74,10 @@
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_FAIRY_DUST_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_FAIRY_DUST_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
-			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
-			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
-			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<ArtDefineTag>ART_DEF_FEATURE_FUJI</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_FEATURE_FUJI</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_FEATURE_FUJI</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_FEATURE_FUJI</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
 			<ResourceUsage>1</ResourceUsage>
 			<PlacementOrder>1</PlacementOrder>
@@ -105,10 +105,10 @@
 			<Civilopedia>TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME_TEXT</Civilopedia>
 			<Help>TXT_KEY_RESOURCE_SAND_OF_TIME_HELP</Help>
 			<ResourceClassType>RESOURCECLASS_RUSH</ResourceClassType>
-			<ArtDefineTag>ART_DEF_RESOURCE_IRON</ArtDefineTag>
-			<ArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY</ArtDefineTagHeavy>
-			<AltArtDefineTag>ART_DEF_RESOURCE_IRON_MARSH</AltArtDefineTag>
-			<AltArtDefineTagHeavy>ART_DEF_RESOURCE_IRON_HEAVY_MARSH</AltArtDefineTagHeavy>
+			<ArtDefineTag>ART_DEF_TERRAIN_DESERT</ArtDefineTag>
+			<ArtDefineTagHeavy>ART_DEF_TERRAIN_DESERT</ArtDefineTagHeavy>
+			<AltArtDefineTag>ART_DEF_TERRAIN_DESERT</AltArtDefineTag>
+			<AltArtDefineTagHeavy>ART_DEF_TERRAIN_DESERT</AltArtDefineTagHeavy>
 			<AITradeModifier>10</AITradeModifier>
 			<ResourceUsage>1</ResourceUsage>
 			<PlacementOrder>1</PlacementOrder>
@@ -375,7 +375,7 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_MAGIC_POWDER_HELP">
-			<Text>Used for .. fill me..</Text>
+			<Text>Used for constructing complicated buildings that should not collapse if flying elephants come by to have some tea.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_MAGIC_POWDER">
 			<Text>Magic powder</Text>
@@ -407,7 +407,7 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_FAIRY_DUST_HELP">
-			<Text>Used for  ..... fill me.</Text>
+			<Text>Is used to attract fairies at night. Keeps fairies busy so that they can't get silly ideas like farting into the soup.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_FAIRY_DUST">
 			<Text>Fairy dust</Text>
@@ -439,7 +439,7 @@
 			<Gender>neuter:an</Gender>
 		</Row>
 		<Row Tag="TXT_KEY_RESOURCE_SAND_OF_TIME_HELP">
-			<Text>Used for .. fill me.</Text>
+			<Text>Very important sand that is used in hourglasses. Without hourglasses, people don't know when they should eat and drink, ultimately leading to perma death.</Text>
 		</Row>
 		<Row Tag="TXT_KEY_CIV5_RESOURCE_SAND_OF_TIME">
 			<Text>Sands of time</Text>

@@ -31,22 +31,22 @@
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Terrain/Resources.xml</FileName>
+        <FileName>XML/BuildingClasses.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Terrain/Improvements.xml</FileName>
+        <FileName>XML/Buildings.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/Buildings.xml</FileName>
+        <FileName>XML/Improvements.xml</FileName>
       </Action>
       <Action>
         <Set>OnModActivated</Set>
         <Type>UpdateDatabase</Type>
-        <FileName>XML/Buildings/BuildingClasses.xml</FileName>
+        <FileName>XML/Resources.xml</FileName>
       </Action>
     </ModActions>
   </PropertyGroup>
@@ -65,8 +65,6 @@
     <Folder Include="Art" />
     <Folder Include="Lua" />
     <Folder Include="XML" />
-    <Folder Include="XML\Buildings" />
-    <Folder Include="XML\Terrain\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Art\ResourceIcons256.dds">
@@ -85,11 +83,15 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>True</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Buildings\BuildingClasses.xml">
+    <Content Include="XML\BuildingClasses.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Buildings\Buildings.xml">
+    <Content Include="XML\Buildings.xml">
+      <SubType>Lua</SubType>
+      <ImportIntoVFS>False</ImportIntoVFS>
+    </Content>
+    <Content Include="XML\Improvements.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
@@ -97,11 +99,7 @@
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>
-    <Content Include="XML\Terrain\Resources.xml">
-      <SubType>Lua</SubType>
-      <ImportIntoVFS>False</ImportIntoVFS>
-    </Content>
-    <Content Include="XML\Terrain\Improvements.xml">
+    <Content Include="XML\Resources.xml">
       <SubType>Lua</SubType>
       <ImportIntoVFS>False</ImportIntoVFS>
     </Content>

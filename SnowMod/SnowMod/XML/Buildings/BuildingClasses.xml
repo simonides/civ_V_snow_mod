@@ -2,37 +2,112 @@
 <!-- Created by ModBuddy on 10/9/2015 2:20:13 PM -->
 <GameData>
 	<BuildingClasses>
+
+		<!--MAGIC_SNOW-->
 		<Row>
-			<Type>BUILDINGCLASS_PALISADE</Type>
-			<DefaultBuilding>BUILDING_PALISADE</DefaultBuilding>
-			<Description>TXT_KEY_BUILDING_PALISADE</Description>
+			<Type>BUILDINGCLASS_MAGIC_SNOW</Type>
+			<DefaultBuilding>BUILDING_MAGIC_SNOW</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MAGIC_SNOW</Description>
 		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row>
+			<Type>BUILDINGCLASS_MAGIC_POWDER</Type>
+			<DefaultBuilding>BUILDING_MAGIC_POWDER</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_MAGIC_POWDER</Description>
+		</Row>
+
+		<!--FAIRY_DUST-->
+		<Row>
+			<Type>BUILDINGCLASS_FAIRY_DUST</Type>
+			<DefaultBuilding>BUILDING_FAIRY_DUST</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_FAIRY_DUST</Description>
+		</Row>
+
+		<!--SAND_OF_TIME-->
+		<Row>
+			<Type>BUILDINGCLASS_SAND_OF_TIME</Type>
+			<DefaultBuilding>BUILDING_SAND_OF_TIME</DefaultBuilding>
+			<Description>TXT_KEY_BUILDING_SAND_OF_TIME</Description>
+		</Row>
+		
 	</BuildingClasses>
 
+	
+	<!--MAGIC_SNOW-->
+	<!--MAGIC_POWDER-->
+	<!--FAIRY_DUST-->
+	<!--SAND_OF_TIME-->
 	<Language_en_US>
-		<Row Tag="TXT_KEY_BUILDING_PALISADE">
-			<Text>Palisade_modded</Text>
+		<!--MAGIC_SNOW-->
+
+		<Row Tag="TXT_KEY_BUILDING_MAGIC_SNOW">
+			<Text>MAGIC_SNOW_modded</Text>
 		</Row>
-		<Row Tag="TXT_KEY_BUILDING_PALISADE_STRATEGY">
+		<Row Tag="TXT_KEY_BUILDING_MAGIC_SNOW_STRATEGY">
 			<Text>
-				Palisade's provide an early defense against attackers. Though they are less expensive than walls, they
+				MAGIC_SNOW's provide an early defense against attackers. Though they are less expensive than walls, they
 				provide only half the defense.
 			</Text>
 		</Row>
-		<Row Tag="TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT">
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MAGIC_SNOW_TEXT">
 			<Text>
-				Built of little more than mud and raw lumber palisades were as vulnerable to the weather as they were
+				Built of little more than mud and raw lumber MAGIC_SNOWs were as vulnerable to the weather as they were
 				to enemy attack. Yet they remained popular in border cities if only because they made the people behind them feel more secure.
 			</Text>
 		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row Tag="TXT_KEY_BUILDING_MAGIC_POWDER">
+			<Text>MAGIC_POWDER_modded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_MAGIC_POWDER_STRATEGY">
+			<Text>
+				MAGIC_POWDER's provide an early defense against attackers. Though they are less expensive than walls, they
+				provide only half the defense.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_MAGIC_POWDER_TEXT">
+			<Text>
+				Built of little more than mud and raw lumber MAGIC_POWDERs were as vulnerable to the weather as they were
+				to enemy attack. Yet they remained popular in border cities if only because they made the people behind them feel more secure.
+			</Text>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row Tag="TXT_KEY_BUILDING_FAIRY_DUST">
+			<Text>FAIRY_DUST_modded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_FAIRY_DUST_STRATEGY">
+			<Text>
+				FAIRY_DUST's provide an early defense against attackers. Though they are less expensive than walls, they
+				provide only half the defense.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_FAIRY_DUST_TEXT">
+			<Text>
+				Built of little more than mud and raw lumber FAIRY_DUSTs were as vulnerable to the weather as they were
+				to enemy attack. Yet they remained popular in border cities if only because they made the people behind them feel more secure.
+			</Text>
+		</Row>
+
+		<!--SAND_OF_TIME-->
+		<Row Tag="TXT_KEY_BUILDING_SAND_OF_TIME">
+			<Text>SAND_OF_TIME_modded</Text>
+		</Row>
+		<Row Tag="TXT_KEY_BUILDING_SAND_OF_TIME_STRATEGY">
+			<Text>
+				SAND_OF_TIME's provide an early defense against attackers. Though they are less expensive than walls, they
+				provide only half the defense.
+			</Text>
+		</Row>
+		<Row Tag="TXT_KEY_CIV5_BUILDINGS_SAND_OF_TIME_TEXT">
+			<Text>
+				Built of little more than mud and raw lumber SAND_OF_TIMEs were as vulnerable to the weather as they were
+				to enemy attack. Yet they remained popular in border cities if only because they made the people behind them feel more secure.
+			</Text>
+		</Row>
+
 	</Language_en_US>
-	<!--<Building_ResourceYieldChanges>
-		<row>
-			<Type>BUILDINGCLASS_PALISADE</Type>
-			<ResourceType>RESOURCE_HORSE</ResourceType>
-			<YieldType>YIELD_GOLD</YieldType>
-			<Yield>69</Yield>
-		</row>
-	</Building_ResourceYieldChanges>-->
 	
 </GameData>

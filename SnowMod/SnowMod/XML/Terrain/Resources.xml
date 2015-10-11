@@ -35,7 +35,7 @@
 		</Row>
 		<!--MAGIC_POWDER-->
 		<Row>
-			<Type>MAGIC_POWDER</Type>
+			<Type>RESOURCE_MAGIC_POWDER</Type>
 			<TechReveal>TECH_MINING</TechReveal>
 			<TechCityTrade>TECH_MINING</TechCityTrade>
 			<AIStopTradingEra>ERA_INDUSTRIAL</AIStopTradingEra>

@@ -2,15 +2,21 @@
 <!-- Created by ModBuddy on 10/9/2015 2:16:46 PM -->
 <GameData>
 	<Buildings>
+		<!--MAGIC_SNOW-->
+		<!--MAGIC_POWDER-->
+		<!--FAIRY_DUST-->
+		<!--SAND_OF_TIME-->
+
+		<!--MAGIC_SNOW-->
 		<Row>
-			<Type>BUILDING_PALISADE</Type>
-			<BuildingClass>BUILDINGCLASS_PALISADE</BuildingClass>
-			<Cost>1</Cost>
+			<Type>BUILDING_MAGIC_SNOW</Type>
+			<BuildingClass>BUILDINGCLASS_MAGIC_SNOW</BuildingClass>
+			<Cost>10</Cost>
 			<GoldMaintenance>0</GoldMaintenance>
-			<Help>TXT_KEY_BUILDING_PALISADE_STRATEGY</Help>
-			<Description>TXT_KEY_BUILDING_PALISADE</Description>
-			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_PALISADE_TEXT</Civilopedia>
-			<Strategy>TXT_KEY_BUILDING_PALISADE_STRATEGY</Strategy>
+			<Help>TXT_KEY_BUILDING_MAGIC_SNOW_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_MAGIC_SNOW</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MAGIC_SNOW_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MAGIC_SNOW_STRATEGY</Strategy>
 			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
 			<MinAreaSize>-1</MinAreaSize>
 			<AllowsRangeStrike>true</AllowsRangeStrike>
@@ -21,13 +27,165 @@
 			<NeverCapture>true</NeverCapture>
 			<PortraitIndex>32</PortraitIndex>
 		</Row>
+		
+		<!--MAGIC_POWDER-->
+		<Row>
+			<Type>BUILDING_MAGIC_POWDER</Type>
+			<BuildingClass>BUILDINGCLASS_MAGIC_POWDER</BuildingClass>
+			<Cost>10</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_MAGIC_POWDER_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_MAGIC_POWDER</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_MAGIC_POWDER_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_MAGIC_POWDER_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>250</Defense>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>32</PortraitIndex>
+		</Row>
+		
+		<!--FAIRY_DUST-->
+		<Row>
+			<Type>BUILDING_FAIRY_DUST</Type>
+			<BuildingClass>BUILDINGCLASS_FAIRY_DUST</BuildingClass>
+			<Cost>10</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_FAIRY_DUST_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_FAIRY_DUST</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_FAIRY_DUST_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_FAIRY_DUST_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>250</Defense>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>32</PortraitIndex>
+		</Row>
+		
+		<!--SAND_OF_TIME-->
+		<Row>
+			<Type>BUILDING_SAND_OF_TIME</Type>
+			<BuildingClass>BUILDINGCLASS_SAND_OF_TIME</BuildingClass>
+			<Cost>10</Cost>
+			<GoldMaintenance>0</GoldMaintenance>
+			<Help>TXT_KEY_BUILDING_SAND_OF_TIME_STRATEGY</Help>
+			<Description>TXT_KEY_BUILDING_SAND_OF_TIME</Description>
+			<Civilopedia>TXT_KEY_CIV5_BUILDINGS_SAND_OF_TIME_TEXT</Civilopedia>
+			<Strategy>TXT_KEY_BUILDING_SAND_OF_TIME_STRATEGY</Strategy>
+			<ArtDefineTag>ART_DEF_BUILDING_WALLS</ArtDefineTag>
+			<MinAreaSize>-1</MinAreaSize>
+			<AllowsRangeStrike>true</AllowsRangeStrike>
+			<Defense>250</Defense>
+			<CityWall>true</CityWall>
+			<HurryCostModifier>25</HurryCostModifier>
+			<IconAtlas>BW_ATLAS_1</IconAtlas>
+			<NeverCapture>true</NeverCapture>
+			<PortraitIndex>32</PortraitIndex>
+		</Row>
+
+
+		<!--MAGIC_SNOW-->
+		<!--MAGIC_POWDER-->
+		<!--FAIRY_DUST-->
+		<!--SAND_OF_TIME-->
+		
 	</Buildings>
 
 	<Building_ResourceQuantityRequirements>
+		<!--MAGIC_SNOW-->
 		<Row>
-			<BuildingType>BUILDING_PALISADE</BuildingType>
+			<BuildingType>BUILDING_MAGIC_SNOW</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_SNOW</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_SNOW</BuildingType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_SNOW</BuildingType>
 			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
 			<Cost>1</Cost>
+		</Row>
+
+		<!--MAGIC_POWDER-->
+		<Row>
+			<BuildingType>BUILDING_MAGIC_POWDER</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_POWDER</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_POWDER</BuildingType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_MAGIC_POWDER</BuildingType>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!--FAIRY_DUST-->
+		<Row>
+			<BuildingType>BUILDING_FAIRY_DUST</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FAIRY_DUST</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FAIRY_DUST</BuildingType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<Cost>3</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_FAIRY_DUST</BuildingType>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+
+		<!--SAND_OF_TIME-->
+		<Row>
+			<BuildingType>BUILDING_SAND_OF_TIME</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_SNOW</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAND_OF_TIME</BuildingType>
+			<ResourceType>RESOURCE_MAGIC_POWDER</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAND_OF_TIME</BuildingType>
+			<ResourceType>RESOURCE_FAIRY_DUST</ResourceType>
+			<Cost>1</Cost>
+		</Row>
+		<Row>
+			<BuildingType>BUILDING_SAND_OF_TIME</BuildingType>
+			<ResourceType>RESOURCE_SAND_OF_TIME</ResourceType>
+			<Cost>3</Cost>
 		</Row>
 	</Building_ResourceQuantityRequirements>
 </GameData>
